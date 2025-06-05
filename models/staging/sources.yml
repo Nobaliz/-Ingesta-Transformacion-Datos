@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw_source
+    database: ingesta-transformacion-datos # Project ID de GCP
+    schema: ai_jobs_dataset # Dataset de BigQuery
+    tables:
+      - name: raw_jobs # Nombre de tu tabla
